@@ -1,0 +1,26 @@
+{
+  "name": "nio",
+  "owner": {
+    "name": "blackmirror media GmbH",
+    "email": "hello@nio.energy",
+    "url": "https://blackmirror.at",
+    "linkedin": "https://www.linkedin.com/company/blackmirror-media",
+    "address": {
+      "street": "Cobenzlgasse 79",
+      "postalCode": "1190",
+      "city": "Wien",
+      "country": "Austria"
+    },
+    "companyRegistration": "FN 475645 d, Handelsgericht Wien",
+    "vatId": "ATU72557958"
+  },
+  "plugins": [
+    {
+      "name": "material-takeoff",
+      "source": "./plugin",
+      "version": "0.1.1",
+      "description": "Extract materials from IFC files, match against environmental databases, and produce an Excel take-off with embodied carbon.",
+      "category": "engineering"
+    }
+  ]
+}
