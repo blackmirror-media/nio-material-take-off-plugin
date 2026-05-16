@@ -1,0 +1,19 @@
+{
+  "name": "material-takeoff",
+  "version": "0.1.0",
+  "description": "Extract materials and quantities from IFC files, match them against environmental databases (oekobaudat, ICE), and produce an Excel take-off with embodied carbon.",
+  "author": {
+    "name": "blackmirror media GmbH",
+    "email": "adam.eri@blackmirror.at"
+  },
+  "homepage": "https://github.com/nio-energy/nio-material-take-off",
+  "license": "proprietary",
+  "keywords": [
+    "ifc",
+    "bim",
+    "lca",
+    "embodied-carbon",
+    "oekobaudat",
+    "material-takeoff"
+  ]
+}
