@@ -1,0 +1,216 @@
+{
+  "_schema": "Maps IFC element types to allowed material-database category prefixes. Per-DB lists are independent: the same IfcType can have different category paths in different DBs. Prefixes match by case-insensitive 'starts-with' on the DB's primary category field.",
+  "_databases": {
+    "oekobaudat": "matched against the 'Category' field, e.g. 'Mineral building products / Mortar and Concrete / Ready mixed concrete'",
+    "ICE": "matched against the 'Material' field (top-level taxonomy), e.g. 'Concrete'"
+  },
+  "IfcBeam": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Metals / Steel and iron / Structural steel profile",
+      "Metals / Steel and iron",
+      "Wood and wood-based materials / Solid timber"
+    ],
+    "ICE": [
+      "Concrete",
+      "Steel",
+      "Timber"
+    ]
+  },
+  "IfcColumn": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Metals / Steel and iron / Structural steel profile",
+      "Metals / Steel and iron",
+      "Wood and wood-based materials / Solid timber"
+    ],
+    "ICE": [
+      "Concrete",
+      "Steel",
+      "Timber"
+    ]
+  },
+  "IfcMember": {
+    "oekobaudat": [
+      "Metals / Steel and iron",
+      "Wood and wood-based materials",
+      "Mineral building products / Mortar and Concrete"
+    ],
+    "ICE": [
+      "Steel",
+      "Timber",
+      "Concrete"
+    ]
+  },
+  "IfcSlab": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Mineral building products / Mortar and Concrete / Screed",
+      "Wood and wood-based materials",
+      "Insulation materials"
+    ],
+    "ICE": [
+      "Concrete",
+      "Timber",
+      "Insulation"
+    ]
+  },
+  "IfcRoof": {
+    "oekobaudat": [
+      "Wood and wood-based materials",
+      "Components for roof / Sealing",
+      "Insulation materials",
+      "Metals / Steel and iron"
+    ],
+    "ICE": [
+      "Timber",
+      "Insulation",
+      "Steel"
+    ]
+  },
+  "IfcWall": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Mineral building products / Bricks",
+      "Wood and wood-based materials",
+      "Insulation materials",
+      "Mineral building products / Plaster"
+    ],
+    "ICE": [
+      "Concrete",
+      "Masonry",
+      "Timber",
+      "Insulation"
+    ]
+  },
+  "IfcWallStandardCase": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Mineral building products / Bricks",
+      "Wood and wood-based materials",
+      "Insulation materials",
+      "Mineral building products / Plaster"
+    ],
+    "ICE": [
+      "Concrete",
+      "Masonry",
+      "Timber",
+      "Insulation"
+    ]
+  },
+  "IfcWindow": {
+    "oekobaudat": [
+      "Components for windows and curtain walls",
+      "Wood and wood-based materials",
+      "Metals / Aluminium"
+    ],
+    "ICE": [
+      "Glass",
+      "Aluminium",
+      "Timber"
+    ]
+  },
+  "IfcDoor": {
+    "oekobaudat": [
+      "Components for windows and curtain walls / Doors",
+      "Wood and wood-based materials",
+      "Metals"
+    ],
+    "ICE": [
+      "Timber",
+      "Steel"
+    ]
+  },
+  "IfcCurtainWall": {
+    "oekobaudat": [
+      "Components for windows and curtain walls",
+      "Metals / Aluminium"
+    ],
+    "ICE": [
+      "Glass",
+      "Aluminium"
+    ]
+  },
+  "IfcReinforcingBar": {
+    "oekobaudat": [
+      "Metals / Steel and iron"
+    ],
+    "ICE": [
+      "Steel"
+    ]
+  },
+  "IfcReinforcingMesh": {
+    "oekobaudat": [
+      "Metals / Steel and iron"
+    ],
+    "ICE": [
+      "Steel"
+    ]
+  },
+  "IfcCovering": {
+    "oekobaudat": [
+      "Components for floor covering",
+      "Components for facades / Cladding",
+      "Mineral building products / Plaster",
+      "Components for roof"
+    ],
+    "ICE": [
+      "Cladding",
+      "Plaster"
+    ]
+  },
+  "IfcPlate": {
+    "oekobaudat": [
+      "Components for facades / Cladding",
+      "Metals",
+      "Wood and wood-based materials"
+    ],
+    "ICE": [
+      "Cladding",
+      "Steel",
+      "Aluminium",
+      "Timber"
+    ]
+  },
+  "IfcRailing": {
+    "oekobaudat": [
+      "Metals",
+      "Wood and wood-based materials"
+    ],
+    "ICE": [
+      "Steel",
+      "Aluminium",
+      "Timber"
+    ]
+  },
+  "IfcStair": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Metals",
+      "Wood and wood-based materials"
+    ],
+    "ICE": [
+      "Concrete",
+      "Steel",
+      "Timber"
+    ]
+  },
+  "IfcFooting": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete"
+    ],
+    "ICE": [
+      "Concrete"
+    ]
+  },
+  "IfcPile": {
+    "oekobaudat": [
+      "Mineral building products / Mortar and Concrete",
+      "Metals / Steel and iron"
+    ],
+    "ICE": [
+      "Concrete",
+      "Steel"
+    ]
+  }
+}
